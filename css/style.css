@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #fbbc02;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#logo-ml{
+    width: 150px;
+    margin: 15px 0px 30px 35px;   
+}
+
+
+#arriba a, #cuenta{
+    position: absolute;
+    left: 80%;
+    top: 3%;
+}
+
+#cuenta{
+    top: 10%;
+}
+
+nav{
+    margin-left: 35px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.banner{
+    width: 100%;
+}
+
+section{
+    display: inline;
+    position: relative;
+}
+
+.ofertas, .destacados{
+    display: flex;
+    margin: 0px 30px;
+}
+.card{
+    flex: 1; 
+    margin: 10px;   
+}
+.b{
+    flex: 2;
+}
+
+.medio{
+    padding: 0% 30%;
+}
+
+.detalles,.btn-primary{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.dos{
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-body{
+    text-align: center;
+}
+.texto-medio{
+    font-size: 30px;
+    position: relative;
+    bottom: 50%;
+}
+
+
+/*Registro*/
+
+#formulario{
+    background-color: None;
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    margin: 5% 40%;
+    padding-bottom: 0%;
+    font-weight: bold;
+    
+}
+#nombre,#email,#password{
+    padding: 5px;
+    margin: 15px 0px;
+}
+
+#formulario img{
+    width: 200px;
+}
+
+#btn-registro{
+    background-color: #6600cc;
+    border-color: black;
+}
+
+.col a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+footer{
+    text-align: center;
+}

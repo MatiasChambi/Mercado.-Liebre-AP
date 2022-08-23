@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mercado Liebre</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="navbarss">
+            <div id="arriba">
+                <img src="img/mercado-liebre.png" alt="logo-ml" id="logo-ml">
+                <a class="navbar-brand" href="#"><i class='bx bxs-donate-blood'></i>Todos las opiniones en un solo lugar.</a>
+            </div>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Todos los productos</a>
+              <div id="cuenta">
+                <a class="navbar-brand" href="#">Creá tu cuenta <i class='bx bxs-user-detail'></i></a>
+                <a class="navbar-brand" data-bs-toggle="modal" data-bs-target="#formulario"href="registro.html">Ingresá <i class='bx bx-log-in'></i> </a>
+              </div>
+            </div>
+        </nav>
+        <div class="modal fade" id="formulario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Registro</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form action="">
+                    <img src="img/mercado-liebre.png" alt="logito"><br>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre"><br>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="password">Contraseña: </label>
+                    <input type="password" name="password" id="password"><br>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button type="button" class="btn btn-primary" id="btn-registro">Registrar</button>
+                </div>
+              </div>
+            </div>
+          </div>          
+          
+    </header>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/productos/img-home-banner.jpg" class="d-block w-100" alt="banner">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner1.jpg" class="d-block w-100" alt="banner1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner2.jpg" class="d-block w-100" alt="banner2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    <main class="container">                                                                                    
+        <section>
+            <h2>Disfruta nuestras ofertas</h2>
+            <div class="ofertas">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/productos/img-cafetera-moulinex.jpg" class="card-img-top" alt="Cafetera Moulinex">
+                    <div class="card-body">
+                      <h5 class="card-title detalles">Cafetera Moulinex</h5>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/productos/img-macbook-pro-2019.jpg" class="card-img-top" alt="Macbook Pro 2019">
+                    <div class="card-body">
+                      <h5 class="card-title detalles">Macbook Pro 2019</h5>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/productos/img-tv-samsung-smart.jpg" class="card-img-top" alt="TV LG 40 pulgadas">
+                    <div class="card-body">
+                      <h5 class="card-title detalles">TV LG 40 pulgadas</h5>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;"                                                                                                                                                                                                 >
+                    <img src="img/productos/img-samsung-galaxy-s10.jpg" class="card-img-top" alt="Samsung Galaxy">
+                    <div class="card-body">
+                      <h5 class="card-title detalles">Samsung Galaxy</h5>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <hr>
+            <h2>Productos destacados</h2>
+            <div class="destacados">
+                <div class="card dos b">
+                    <img src="img/productos/img-samsung-galaxy-s10.jpg" class="card-img-top medio" alt="Smarphone Samsung Galaxy" width="500px" height="500px">
+                      <h5 class="card-title texto-medio">Smarphone Samsung Galaxy</h5>
+                </div>
+                <div class="card dos">
+                    <img src="img/productos/img-tv-samsung-smart.jpg" class="card-img-top" alt="TV Smart 40 Samsung" width="500px" height="500px">
+                      <h5 class="card-title texto-medio">TV Smart 40 Samsung</h5>
+                </div>   
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h4>Seguinos</h4>
+                <br>
+                <a href="#"><i class='bx bxl-facebook'></i>Facebook</a>
+                <a href="#"><i class='bx bxl-instagram' ></i>Instagram</a>
+                <a href="#"><i class='bx bxl-linkedin' ></i>Linkedin</a>
+                <a href="#"><i class='bx bxl-youtube' ></i>Youtube</a>
+            </div>
+            <div class="col">
+                <h4>Otros Servicios</h4>
+                <br>
+                <a href="#">MercadoLiebre pago</a>
+                <a href="#">MercadoLiebre Shops</a>
+                <a href="#">Liebre Envios</a>
+            </div>
+            <div class="col">
+                <h4>Trabaja con nosotros</h4>
+                <br>
+                <input type="email" placeholder="Ingresa tu email">
+                <input type="submit" value="Enviar">
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
